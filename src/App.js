@@ -252,7 +252,7 @@ useEffect(() => {
       <div className='col'></div>
       <div className='col-6' style={poemsStyle}>
         <div>
-          <a style={{textDecoration:"none", color:"#ffffff"}}  ><h3>some</h3></a>
+          <h3>some</h3>
           <p>
         
 
