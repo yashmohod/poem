@@ -1,7 +1,6 @@
 import './App.css';
 import { useState, useEffect,useRef,useMemo } from 'react';
 // import { Gradient } from "javascript-color-gradient";
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import yinyang from "./img/yy.jpg";
 import distop from "./img/distop.jpeg";
@@ -17,7 +16,7 @@ const [divStyle,setDivStyle] = useState({
   overflow:"hidden",
   backgroundImage: `url(${yinyang})`,
 });
-const [poemsStyle,setPoemsStyle] = useState({
+const [poemsStyle] = useState({
   boxShadow: "0 0 1rem 0 rgba(0, 0, 0, .2)",
   borderRadius: "5px",
   backgroundColor: "rgba(255, 255, 255, .15)",
@@ -253,7 +252,7 @@ useEffect(() => {
       <div className='col'></div>
       <div className='col-6' style={poemsStyle}>
         <div>
-          <a style={{textDecoration:"none", color:"#ffffff"}}  href=""><h3>some</h3></a>
+          <a style={{textDecoration:"none", color:"#ffffff"}}  ><h3>some</h3></a>
           <p>
         
 
